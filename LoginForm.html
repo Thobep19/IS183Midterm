@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="./CSS/main.css">
+</head>
+<body>
+    <div class="login-page">
+        <section class="Login-Main">
+            <header class= "login-header">
+                <h1 class = "h1-login">Login Page</h1>
+            </header>
+            <article class="login-main-content">
+                <div class="login-form">
+                    <h1 class="login-h1">Login</h1>
+                    <label for="username">Username</label>
+                    <input class="login-input" type="text" id="username">
+                    <label for="password">Password</label>
+                    <input class="login-input" type="password" id="password">
+                    <button onclick="login()" id="btn-login" class="login-button">LOG IN</button>
+                    <div id="error-container">
+                        <p id="error-text" class="error-message"></p>
+                    </div>
+
+                </div>
+            </article>
+            <footer class="login-footer">
+                <p>
+                    (c) Created Patrick Thobe
+                </p>
+        </footer>
+        </section>
+    </div>
+    <script>
+        function login() {
+
+
+            let username = document.getElementById('username').value;
+            let password = document.getElementById('password').value;
+            let errorContainer = document.getElementById('error-container');
+            let errorText = document.getElementById('error-text');
+
+            if(username == 'User' && password == 'Password') {
+                location.href = './HomePage.html';
+            } else {
+                errorContainer.style.display = 'block';
+                errorText.style.display = 'block';
+                errorText.innerHTML = 'Error please try again...';
+
+               let handle = setInterval(() => {
+                    errorContainer.style.display = 'none';
+                    clearInterval(handle);
+                },2000);
+            }
+
+            //alert(password);
+        }
+    </script>
+</body>
+</html>
