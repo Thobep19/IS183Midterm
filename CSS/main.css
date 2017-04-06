@@ -1,0 +1,177 @@
+* {
+    margin:0;
+    padding:0;
+}
+.login-main-content {
+    float: right;
+    background-color: #CCC;
+    width: 100%;
+    height: 774px;
+    padding: 0 2% 0 2%;
+}
+.login-page {
+    width:80%;
+    height:flex 1;
+    margin:0 auto;
+}
+
+.login-header {
+    height:50px;
+}
+div.login-form {
+    padding:20px;
+    width:300px;
+    height:250px;
+    background-color:white;
+    margin:90px auto 0;
+    border-radius:7px;
+}
+input.login-input {
+    width:100%;
+    padding:5px 2px;
+    border-radius:5px;
+    margin:7px 0;
+}
+h1.login-h1 {
+    margin-bottom:15px;
+}
+button.login-button {
+    padding:5px 15px;
+    border-radius:7px;
+    background-color:blue;
+    color:#FFF;
+}
+p.error-message{
+   display:none;
+    margin-top:10px;
+    padding:5px;
+    width:100%;
+    color:#FFF;
+    background-color:orangered;
+    border:1px solid yellow;
+    border-radius:5px;
+}
+        .Home-Header{
+            width:100%;
+            height:100px;
+            background-color: blue;
+        }
+        .logo {
+            width:100px;
+            height:100px;
+            float:left;
+        }
+        .HH1 {
+            margin-left: 150px;
+        }
+        .home-page {
+            margin:0 auto;
+            width: 90%;
+            height: 500px;
+        }
+        .home-main {
+            width:100%;
+            height:500px;
+        }
+        .side-bar-left {
+            height:100%;
+            width: 15%;
+            background-color: #CCC;
+            float:left;
+        }
+        .sidebar-links ul li {
+            text-decoration: none;
+        }
+        .main-content-area {
+            height:100%;
+            width:65%;
+            background-color: honeydew;
+            float:left;
+        }
+        .-side-bar-right {
+            float:right;
+            width:20%;
+            height:100%;
+            background-color: #CCC;
+        }
+        .images {
+            height:100px;
+            width:100px;
+        }
+        .home-footer {
+            height:100px;
+            background-color: blue;
+        }
+        .Contact-Header {
+    width:100;
+    height:100px;
+    background-color: blue;
+}
+.contact-logo {
+    width:100px;
+    float:left;
+}
+.CH1 {
+    margin-left: 150px;
+}
+input.submit-button {
+    padding:5px 15px;
+    width:100%;
+    border-radius:7px;
+    background-color:blue;
+    color:#FFF;
+}
+.main-content-submit {
+    flex: 1;
+    height: 82%;
+    padding-top: 100px;
+}
+div.submit-form {
+    padding: 20px;
+    width: 50%;
+    height: 55%;
+    background-color: #CCC;
+    border-radius: 7px;
+    margin: 0 auto;
+}
+h1.submit-h2 {
+    margin-bottom:20px;
+}
+.content-bottom-contact {
+    overflow: auto;
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    flex:1;
+    height:600px;
+}
+.contact-footer {
+    height:100px;
+    background-color: blue;
+}
+        .about-header {
+            height:100px;
+            background-color: blue;
+        }
+        .about-logo {
+            float:left;
+            height:100px;
+            width:150px;
+        }
+        .AH1 {
+            margin-left: 200px;
+        }
+        .about-us-page {
+            margin:0 auto;
+            height:600px;
+            width:80%;
+        }
+        .main-about-us-content {
+            height:100%;
+            width:100%;
+            background-color: #CCC;
+        }
+        .about-footer {
+            background-color: blue;
+            height: 100px;
+        }
